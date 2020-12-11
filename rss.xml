@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ 
+	<channel> 
+    <title>  Kafeterija </title>
+    <link></link>
+    <description>  U našoj kafeteriji možete očekivati i pronaći izuzetno kvalitetne kafe u svim oblicima i formama: cela zrna iz različitih proizvođačkih zemalja, različito pržena, za raznovrsne filter kafe kao i pažljivo pripremljene espresso mešavine. </description>
+	<item>
+	<title> Kafeterija - O nama </title>
+    <link> kafeterija.github.io/onama </link>
+    <description> Iako veoma mlad brend, za manje od tri godine dokazanim kvalitetom i konstantnim inovacijama postali smo jedan od najbrže rastućih lanaca kafeterija u Srbiji </description>
+	</item>
+	<item>
+	<title> Kafeterija - Meni </title>
+    <link> kafeterija.github.io/meni</link>
+    <description> Meni strana Kafeterije </description>
+	</item>
+    <item>
+	<title> Kafeterija - Vesti </title>
+    <link> kafeterija.github.io/index</link>
+    <description> Budite u toku sa novim dešavanjima u okviru naše male Kafeterije. </description>
+	</item>
+	<item>
+	<title> Kafeterija - Galerija </title>
+    <link> kafeterija.github.io/galerija </link>
+    <description>  Galerija Kafeterije	</description>
+	</item>
+	<item>
+	<title> Kafeterija - Kontakt </title>
+    <link> kafeterija.github.io/kontakt </link>
+    <description>  Kontakt strana Kafeterije </description>
+	</item>
+	<item>
+	<title> Kafeterija - O autoru </title>
+    <link> kafeterija.github.io/oautoru </link>
+    <description>  O autoru sajta Kafeterije </description>
+	</item>
+	
+</channel>
+</rss>

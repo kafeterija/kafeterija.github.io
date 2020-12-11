@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>kafeterija.github.io/index.html</loc>
+<lastmod>2020-12-09</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>kafeterija.github.io/onama.html</loc>
+<lastmod>2020-12-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>kafeterija.github.io/meni.html</loc>
+<lastmod>2020-12-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>kafeterija.github.io/kontakt.html</loc>
+<lastmod>2020-12-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+</urlset>

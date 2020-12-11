@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kafeterija</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="kafeterija, kafeterije, kafa, kafe, espresso, cappuccino, latte, nescafe, alkohol, tople, hladne" />
+        <link rel="icon" href="assets/tab_icon.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<script type="text/javascript" src="scripts/forma.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="border">
+                <a href="index.html"><img src="assets/logo (2).png"  style="width:52%" alt="logo-kafeterije" /></a>
+            </header>
+
+            <div id="menu" class="border">
+                <ul>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="meni.html">Meni</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="slider">
+                <div class="slide"><img src="assets/slider/img6.jpg" style="width:100%" alt="slajder-soljice kafe"></div>
+                <div class="slide"><img src="assets/img5.jpeg" style="width:100%" alt="slajder-latteArt"></div>
+                <div class="slide"><img src="assets/slider/onama1.png" style="width:100%" alt="slajder-dupliEspresso"></div>
+              
+                <a id="previous">&#10094;</a>
+                <a id="next">&#10095;</a>
+            </div>
+
+            <div id="tekst" style="max-width: 1000px;">
+                <h5>KAFETERIJA! MESTO GDE JUTRO POČINJE!</h5></br>
+                <p>U našoj kafeteriji možete očekivati i pronaći izuzetno kvalitetne kafe u svim oblicima i formama:
+                   cela zrna iz različitih proizvođačkih zemalja, različito pržena, za raznovrsne filter kafe kao i 
+                   pažljivo pripremljene espresso mešavine. Takođe, u našoj ponudi napitaka na bazi espresso kafe, 
+                   teško je ne pronaći nešto za svačiji ukus. Naš je cilj jednostavan, da se na kafu gleda radoznalo, 
+                   da se isprobava na različite načine, da se konstantno uči i napreduje i naravno da se poštuje. 
+                   Polako rasvetljujući sve ono što je sa kafom moguće uraditi, nadamo se da ćete zauvek promeniti 
+                   način na koji razmišljate o kafi. A, to je već dobar početak.</p> 
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-4 left-box">
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="assets/newYear.jpg" style="width:100%" alt="novaGodina" />
+                            </div>
+                            <div class="news-text">
+                                <p>Dočekajte Novu 2021 godinu u prelepom ambijentu naše male kafeterije uz laganu muziku i šoljicu vaše omiljene kafe.</p>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 middle-box">
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="assets/noviKafe.jpg" style="width:100%" alt="enterijerKafeterije" />
+                            </div>
+                            <div class="news-text">
+                                <p>Dragi naši sa ponosom objavljujemo da se uskoro družimo i na novoj <a id="formaLink1" href="kontakt.html#nova-lokacija">lokaciji</a>.</p>                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 right-box">
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="assets/walt.jpg" style="width:100%" alt="dostavaWolt" />
+                            </div>
+                            <div class="news-text">
+                                <p>Prijavom na newsletter ostvarujete popust od 15% na sve porudžbine putem Wolt aplikacije do kraja meseca. <a id="formaLink">Link za prijavu</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="forma" class="modal">
+                <div class="modal-content">
+                    
+                   
+                    <form name="login" action="">
+
+                        <span id="close" >
+                            x
+                        </span>
+                        <span id="c">
+                            <span id="resizable">
+                                <h5>PRIJAVITE SE NA NAŠ NEWSLETTER</h5>
+                            </span>
+                            <span id="b">
+                               
+                            </span>
+                        </span>
+                   
+                        <div class="row justify-content-center">
+                            <div class="col-10 register">
+
+                                <div class="row justify-content-center">
+                                    <div class="col-md-5 reg-up">
+                                        <div class="form-group">
+                                            <input id="ime" name="polje" type="text" placeholder="Ime" style="float:left!important;width:100%;border:none;"/>
+                                        </div>
+                                        <p class="text-danger" id="imeError" style="padding: 0 0"></p>
+                                    </div>
+                                    <div class="col-md-5 reg-up">
+                                        <div class="form-group">
+                                            <input id="prezime" name="polje" type="text" placeholder="Prezime" style="float:right!important;width:100%;border:none;"/>
+                                        </div>
+                                        <p class="text-danger" id="prezimeError" style="padding: 0 0;"></p></br>
+                                    </div>
+                              </div> 
+                              <div class="row justify-content-center" style="margin-top:20px;">
+                                    <div class="col-md-8 reg-down">
+                                        <div class="form-group">
+                                            <input id="mail" name="polje" type="text" placeholder="Mail" style="float:left!important;width:100%;border:none;"/>
+                                        </div>
+                                        <p class="text-danger" id="mailError" style="padding: 0 0"></p>
+                                    </div>
+                                    <div class="col-md-2 reg-down">
+                                        <input id="prijava" type="button" value="Prijava" style="float:right!important;width:100%;border:none;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                    </form>
+                </div>
+            </div>
+
+            <footer class="border">
+                <ul>
+                    <li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+                    <li><a href="oautoru.html">O autoru</a></li>
+                    <li><a href="rss.xml">RSS</a></li>
+                    <li><a href="siteMap.xml">Site Map</a></li>
+                </ul>
+                
+                <div>
+                    <a href="https://www.facebook.com"><i class="fa-facebook-f fa"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-instagram fa"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-twitter fa"></i></a>
+                </div>
+            </footer>
+            
+        </div>        
+    </body>
+</html>

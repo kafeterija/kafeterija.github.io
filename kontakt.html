@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="kafeterija, kafeterije, kafa, kafe, espresso, cappuccino, latte, nescafe, alkohol, tople, hladne" />
+        <link rel="icon" href="assets/tab_icon.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/flip.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="scripts/flip.min.js"></script>
+        <script>
+            function handleTickInit(tick) {
+                var nextYear = (new Date()).getFullYear() + 1;
+                
+                Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+                    tick.value = value;
+                };
+
+            }
+        </script>
+
+        
+        <style>
+            .tick {
+                padding-bottom: 1em;
+                font-size:1rem;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            }
+            
+            .tick-label {
+                font-size:.375em;
+                text-align:center;
+            }
+
+            .tick-group {
+                margin:0 .25em;
+                text-align:center;
+            }
+
+            div.tick.border {
+                padding-top: 0px;
+            }
+
+            .tick-group:first-of-type {
+                margin: 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="border">
+               <a href="index.html"><img src="assets/logo (2).png"  style="width:52%" alt="logo-kafeterije" /></a>
+            </header>
+
+            <div id="menu" class="border">
+                <ul>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="meni.html">Meni</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="border row">
+                <div class="col-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11325.910537136191!2d20.479605449090265!3d44.79145378723121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70755302546b%3A0xf05ee5cbf1b525fa!2sKafeterija%20Vra%C4%8Dar!5e0!3m2!1sen!2srs!4v1607366678988!5m2!1sen!2srs" width="100%" height="370px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-5">
+                    <div id="lokacija">
+                        <img class="info-icon" src="assets/location-pin.png" alt="lokacija"/><br/>
+                        <h6>Koče Kapetana 32, Beograd</h6></br>
+                    </div>
+
+                    <div id="vreme">
+                        <img class="info-icon" src="assets/wall-clock.png"  alt="sat"/><br/>
+                        <h6>Ponedeljak - Nedelja<br/> 
+                        09:00h - 23:00h<br/>
+                        Wolt dostava</br> 
+                        09:30h - 16:00h</h6></br>
+                    </div>
+
+                    <div id="tel">
+                        <img class="info-icon" src="assets/phone-call.png" alt="slusalica"/><br/>
+                        <h6>+381 11 4067194</br>
+                            +381 60 5057791</h6></br>
+                    </div>
+
+                    <div id="mejl">
+                        <img class="info-icon" src="assets/envelope.png" alt="koverat"/><br/>
+                        <h6>jovana.sklopic@kafeterija.com</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border row">
+                <div class="col-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.128232701454!2d20.45198941533294!3d44.81895217909863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a654c5f4e4b59%3A0xad390bd76267d108!2z0JrQsNGE0LXRgtC10YDQuNGY0LAg0JzQsNCz0LDQt9C40L0gMTkwNw!5e0!3m2!1ssr!2srs!4v1607450301019!5m2!1ssr!2srs" width="100%" height="370px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-5">
+                    <div id="lokacija">
+                        <img class="info-icon" src="assets/location-pin.png" alt="lokacija"/><br/>
+                        <h6>Kralja Petra 16, Beograd</h6></br>
+                    </div>
+
+                    <div id="vreme">
+                        <img class="info-icon" src="assets/wall-clock.png" alt="sat"/><br/>
+                        <h6>Ponedeljak - Nedelja<br/> 
+                        09:00h - 23:00h<br/>
+                        Wolt dostava </br>
+                        09:30h - 16:00h</h6></br>
+                    </div>
+
+                    <div id="tel">
+                        <img class="info-icon" src="assets/phone-call.png" alt="slusalica"/><br/>
+                        <h6>+381 11 3281311</br>
+                            +381 60 7751088</h6></br>
+                    </div>
+
+                    <div id="mejl">
+                        <img class="info-icon" src="assets/envelope.png" alt="koverat"/><br/>
+                        <h6>milovan.adzic@kafeterija.com</h6>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div id="nova-lokacija" class="border row">
+                <div class="col-7">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11325.910537139109!2d20.47960544941097!3d44.791453787216575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70748907e155%3A0x1ea590fbb093f074!2sKafeterija%20%C4%8Cubura!5e0!3m2!1ssr!2srs!4v1607717921065!5m2!1ssr!2srs" width="100%" height="370px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-5">
+                    <div id="lokacija">
+                        <img class="info-icon" src="assets/location-pin.png" alt="lokacija"/><br/>
+                        <h6>Mekenzijeva 81, Beograd</h6></br>
+                    </div>
+
+                    <div id="vreme">
+
+                        <img class="info-icon" src="assets/wall-clock.png" alt="sat"/><br/>
+
+                        <div class="tick border"
+                            data-did-init="handleTickInit">
+            
+            
+                            <h6>Vreme do otvaranje novog lokala:</h6>
+                            <div data-repeat="true"
+                                data-layout="horizontal center fit"
+                                data-transform="preset(d, h, m, s) -> delay">
+            
+                                <div class="tick-group">
+            
+                                    <div data-key="value"
+                                            data-repeat="true"
+                                            data-transform="pad(00) -> split -> delay">
+            
+                                        <span data-view="flip"></span>
+            
+                                    </div>
+            
+                                </div>
+            
+                            </div>
+            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="border">
+                <ul>
+                    <li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+                    <li><a href="oautoru.html">O autoru</a></li>
+                    <li><a href="rss.xml">RSS</a></li>
+                    <li><a href="siteMap.xml">Site Map</a></li>
+                </ul>
+                
+                <div>
+                    <a href="https://www.facebook.com"><i class="fa-facebook-f fa"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-instagram fa"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-twitter fa"></i></a>
+                </div>
+            </footer>
+            
+        </div>        
+    </body>
+</html>
